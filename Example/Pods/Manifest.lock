@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - MinewESLSingleKit (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - MinewESLSingleKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  MinewESLSingleKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  MinewESLSingleKit: 98045dff862c06d5a0716add91ad163be687faeb
+
+PODFILE CHECKSUM: 4d0aa589535682306c92b492fb5df3946e25eb18
+
+COCOAPODS: 1.10.0

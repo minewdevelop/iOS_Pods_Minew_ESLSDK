@@ -1,0 +1,6 @@
+framework module Pods_MinewESLSingleKit_Example {
+  umbrella header "Pods-MinewESLSingleKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
