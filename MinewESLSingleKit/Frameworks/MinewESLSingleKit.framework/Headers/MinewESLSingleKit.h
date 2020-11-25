@@ -21,3 +21,4 @@ FOUNDATION_EXPORT const unsigned char MinewESLSingleKitVersionString[];
 #import <MinewESLSingleKit/MTCentralManager.h>
 #import <MinewESLSingleKit/MTConnectionHandler.h>
 #import <MinewESLSingleKit/MTBroadcastHandler.h>
+#import <MinewESLSingleKit/MTOTAManager.h>
