@@ -16,6 +16,10 @@
 		<data>
 		U1IK/vxRat5i4lJYv7ExGdcNfPA=
 		</data>
+		<key>Headers/MTOTAManager.h</key>
+		<data>
+		rVZfWUJZaAx4jBJa74WIK9/lVS0=
+		</data>
 		<key>Headers/MTPeripheral.h</key>
 		<data>
 		pmHOKMuAxKgTnqiTRdX/5ksWV34=
@@ -110,6 +114,13 @@
 			<key>hash2</key>
 			<data>
 			FQfwbjk/aUlWsG3KskTRZdgfkWDC3fEG07W5MMK6Wx4=
+			</data>
+		</dict>
+		<key>Headers/MTOTAManager.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RWn4fKo1H0wkpPwDvpgy2U+Y4W7MJLoJO0QfXKEY/30=
 			</data>
 		</dict>
 		<key>Headers/MTPeripheral.h</key>

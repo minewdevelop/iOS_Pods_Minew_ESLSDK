@@ -16,6 +16,7 @@
 		2E4C0BD2363ABABB6470FBA5415985AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		65713FD33137DB3E1DBCF05A62ABA0F8 /* Pods-MinewESLSingleKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE4A97A7B35FA711B33557CDB7B6F67 /* Pods-MinewESLSingleKit_Tests-dummy.m */; };
+		6A4B5EBD256E05A60098E1BD /* MTOTAManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A4B5EBC256E05A60098E1BD /* MTOTAManager.h */; };
 		6ADA15D82567E568004A70D6 /* MinewESLSingleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADA15D72567E568004A70D6 /* MinewESLSingleKit.framework */; platformFilter = ios; };
 		6ADA15DE2567E577004A70D6 /* MTPeripheral.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ADA15D92567E577004A70D6 /* MTPeripheral.h */; };
 		6ADA15DF2567E577004A70D6 /* MTCentralManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ADA15DA2567E577004A70D6 /* MTCentralManager.h */; };
@@ -98,6 +99,7 @@
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C68AD7D778D70DBAC8624333E547D4B /* Pods-MinewESLSingleKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MinewESLSingleKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		6A4B5EBC256E05A60098E1BD /* MTOTAManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTOTAManager.h; path = MinewESLSingleKit/Classes/MTOTAManager.h; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		6ADA15D72567E568004A70D6 /* MinewESLSingleKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MinewESLSingleKit.framework; sourceTree = "<group>"; };
 		6ADA15D92567E577004A70D6 /* MTPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTPeripheral.h; path = MinewESLSingleKit/Classes/MTPeripheral.h; sourceTree = "<group>"; };
@@ -234,6 +236,7 @@
 		55D6E7BA0AA36E1FD26C7CA45650552D /* MinewESLSingleKit */ = {
 			isa = PBXGroup;
 			children = (
+				6A4B5EBC256E05A60098E1BD /* MTOTAManager.h */,
 				6ADA15DB2567E577004A70D6 /* MinewESLSingleKit.h */,
 				6ADA15DD2567E577004A70D6 /* MTBroadcastHandler.h */,
 				6ADA15DA2567E577004A70D6 /* MTCentralManager.h */,
@@ -413,6 +416,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED568922B2137B1A115E4B6FDA8B1ACA /* MinewESLSingleKit-umbrella.h in Headers */,
+				6A4B5EBD256E05A60098E1BD /* MTOTAManager.h in Headers */,
 				6ADA15DE2567E577004A70D6 /* MTPeripheral.h in Headers */,
 				6ADA15E22567E577004A70D6 /* MTBroadcastHandler.h in Headers */,
 				6ADA15DF2567E577004A70D6 /* MTCentralManager.h in Headers */,
